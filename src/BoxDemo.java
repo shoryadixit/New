@@ -4,6 +4,7 @@ class Box{
     double height, width, depth;
 }
 
+
 public class BoxDemo {
     public static void main(String[] args){
         Box mybox = new Box();
@@ -13,13 +14,13 @@ public class BoxDemo {
         //Assign values to mybox's instance variables
 
         System.out.println("Enter width of Box ");
-        sc.nextDouble();
+        double width = sc.nextDouble();
 
         System.out.println("Enter height of Box ");
-        sc.nextDouble();
+        double height = sc.nextDouble();
 
         System.out.println("Enter depth of Box ");
-        sc.nextDouble();
+        double depth = sc.nextDouble();
 
         //compute volume of the Box
 
