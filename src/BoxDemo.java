@@ -22,6 +22,9 @@ public class BoxDemo {
         System.out.println("Enter depth of Box ");
         double depth = sc.nextDouble();
 
+        mybox.width = width;
+                mybox.depth = depth;
+                mybox.height = height;
         //compute volume of the Box
 
         vol = mybox.width * mybox.height * mybox.depth;
