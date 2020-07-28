@@ -18,12 +18,12 @@ public class MethodDemo {
         //creating object
 
         MethodDemo sum = new MethodDemo();
-
+        System.out.println("Enter two numbers: ");
         int number1 = sc.nextInt();
         int number2 = sc.nextInt();
 
         int result = sum.add(number1, number2);
-
+        System.out.println(result);
     }
     //declaring and defining out method
 
@@ -37,9 +37,11 @@ public class MethodDemo {
         //result into response variable
         response = n1 + n2;
         //returning the value of response
-        final int response1 = response;
-        return response1;
+        return response;
 
     }
 }
+
+//create a method add which accept three argument which one argument integer type, second argumnet float type, and third argument double type
+
 
